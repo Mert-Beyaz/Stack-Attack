@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 832daa09ba2e1394fa6feb6ee601f7f8, type: 3}
+  m_Name: SoundData
+  m_EditorClassIdentifier: 
+  soundClips:
+  - _name: Damage
+    _clip: {fileID: 8300000, guid: 8b44e08c6beeed944b0ab2ea1017f6e6, type: 3}
+    _volume: 0.1
+  - _name: Shoot
+    _clip: {fileID: 8300000, guid: be1d579e564872f488e8f4b423354b2c, type: 3}
+    _volume: 0.1
+  - _name: Success
+    _clip: {fileID: 8300000, guid: 0b3183b8ecb384c4c864de602609a773, type: 3}
+    _volume: 0.2
+  - _name: Fail
+    _clip: {fileID: 8300000, guid: 1e70809dcc92bb84199e99bf96210681, type: 3}
+    _volume: 0.2
